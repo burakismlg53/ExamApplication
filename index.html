@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exam Application</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="board" id ="qp">
+              <h4 id="time">Süre:</h4>
+              <h4 id="point">Puan:</h4>
+              <p id="qp1">1</p>
+              <p id="qp2">2</p>
+              <p id="qp3">3</p>
+              <p id="qp4">4</p>
+              <p id="qp5">5</p>
+              <p id="qp6">6</p>
+              <p id="qp7">7</p>
+              <p id="qp8">8</p>
+              <p id="qp9">9</p>
+              <p id="qp10">10</p>
+              
+            </div>
+          </div>
+          <div class="col-sm-10">
+      <div class="main col-sm-10" id="query">
+        <div class="question" style="font-weight:bold; " id="qu1">
+        <p  id ="questiontext"></p>
+        <div id="optionsList"></div>
+      <button id="previousButton" onclick="previousQuestion()">Geri</button>
+      <button id="nextButton"     onclick="nextQuestion()">İleri</button>
+      <button id="addquestionbutton"     onclick="addNewQuestion()">Soru Ekle</button>
+      <button id="addquestionbutton"     onclick="updateQuestion()">Soru Güncelle</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    
+<script src="script.js"></script>
+</body>
+
+</html>
